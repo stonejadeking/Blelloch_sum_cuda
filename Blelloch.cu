@@ -1,6 +1,7 @@
 /*
 A small code to test the blelloch and Hillis algrithm
-Blelloch can only perform on size = 2^d array; thus a artitary array with size N should seperate into 2 arrary -> one is 2^d(cloest to N for maximum efficiency) and another is N-2^n  
+Blelloch can only perform on size = 2^d array; thus a artitary array with size N should seperate into 2 arrary ->
+one is 2^d(cloest to N for maximum efficiency) with Blelloch sum and another is N-2^n by using Hillis 
 */
 
 #include<iostream>
